@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+
+.apresentacao__conteudo__texto a{
+    text-decoration: none;
+    color: #22D4FD;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600px;
+    text-decoration: none;
+    color: #22D4FD;
+}   
+
+.cabecalho__menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho {
+    padding: 2% 0 0 20%;
+    display: flex;
+    justify-content: flex;
+    
+}
+
+/* Não está no curso, fiz uma mudança para ajustar minha foto */
+img{
+    width: 350px;
+    border-radius: 16px;
+}
+
+.apresentacao__links__icon{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+
+.apresentacao{
+    padding: 5% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.apresentacao__links__link{
+    /* background-color: #22D4FD; */
+    border: 2px solid #22D4FD;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    transition: 1s;
+}
+
+.apresentacao__links__link:hover{
+    background-color: #272727;
+    position: relative;
+    top: -4px;
+    transition: 0.3s;
+}
+
+.rodape {
+    text-align: center;
+    padding: 24px 0;
+    font-size: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+}
