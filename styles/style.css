@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #4A70A9;
+    --cor-fundo: #EFECE3;
+    --cor-hover: #8FABD4;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -10,14 +20,14 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--cor-fundo);
+    color: var(--cor-secundaria);
 }
 
 
 .apresentacao__conteudo__texto a{
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--cor-primaria);
 }
 
 .cabecalho__menu__link {
@@ -25,7 +35,7 @@ body{
     font-size: 24px;
     font-weight: 600px;
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--cor-primaria);
 }   
 
 .cabecalho__menu {
@@ -54,7 +64,7 @@ img{
 
 
 .titulo-destaque{
-    color: #22D4FD;
+    color: var(--cor-primaria);
 }
 
 .apresentacao{
@@ -93,8 +103,7 @@ img{
     font-size: 24px;
 }
 .apresentacao__links__link{
-    /* background-color: #22D4FD; */
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-primaria);
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -102,7 +111,7 @@ img{
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
@@ -111,7 +120,7 @@ img{
 }
 
 .apresentacao__links__link:hover{
-    background-color: #272727;
+    background-color: var(--cor-hover);
     position: relative;
     top: -4px;
     transition: 0.3s;
@@ -121,8 +130,8 @@ img{
     text-align: center;
     padding: 24px 0;
     font-size: 24px;
-    color: #000000;
-    background-color: #22D4FD;
+    color: var(--cor-fundo);
+    background-color: var(--cor-primaria);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400px;
 }
