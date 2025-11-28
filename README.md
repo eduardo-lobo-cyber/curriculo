@@ -2,7 +2,7 @@
 
 # Olá, Bem vindo ao meu projeto de portfólio.
 
-![Portfolio](img/Portfolio.png)
+![Portfolio](img/Portfolio.png)(https://curriculo-navy-eight.vercel.app/)
 
 ## Ferramentas utilizadas:
 
