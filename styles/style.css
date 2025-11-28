@@ -22,6 +22,9 @@ body{
     flex-direction: column;
     background-color: var(--cor-fundo);
     color: var(--cor-secundaria);
+    height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -134,4 +137,9 @@ img{
     background-color: var(--cor-primaria);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400px;
+}
+
+footer {
+  margin: 0;
+  padding-bottom: 0;
 }
