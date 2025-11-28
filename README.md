@@ -2,7 +2,7 @@
 
 # Olá, Bem vindo ao meu projeto de portfólio.
 
-![Portfolio] (img/portfolio.png)
+![Portfolio](img/Portfolio.png)
 
 ## Ferramentas utilizadas:
 
